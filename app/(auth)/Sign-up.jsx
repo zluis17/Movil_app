@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { images } from '../../constants';
 import  FormField from '../../Components/FormField'
-import  CustomButton  from '../../Components/customButton'
+import  CustomButton  from '../../Components/CustomButton'
 import { Link } from 'expo-router';
 
 
@@ -12,7 +12,7 @@ const Signup = () => {
     username: '',
     email: '',
     password: ''
-  })
+  })  
   const [isSubmitting, setisSubmitting] = useState(false)
   
   const submit =() =>{

@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { images } from '../../constants';
 import  FormField from '../../Components/FormField'
-import  CustomButton  from '../../Components/customButton'
+import  CustomButton  from '../../Components/CustomButton'
 import { Link } from 'expo-router';
 
 
