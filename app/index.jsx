@@ -44,7 +44,7 @@ export default function App() {
              <custombutton
              title="continue-with Email"
              handlePress={()=>router.push('/sign-in')}
-             contentContainerStyle="w-full mt-7"
+             ContainerStyle="w-full mt-7"
              />
              
             </Text>
